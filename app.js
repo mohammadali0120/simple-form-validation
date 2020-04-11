@@ -21,7 +21,9 @@ function isValidPassword(password) {
 function isValidPhoneNumber(phonenumber) {
     // return /^(\+98|0)?0?9\d{9}$/.test(phonenumber);
     // OR The following pattern is suggested
-    return /^(\+?98|0)?0?9\d{2}\d{3}\d{4}$/.test(phonenumber);
+    return /^(\+?98|0)?0?9\d{2}\d{3}\d{4}$/.test(phonenumber);  //this pattern for mobile phone numbers iranian 
+    // the below pattern are for other phone numbers
+    //return /^(?:(?:\+?1\s*(?:[.-]\s*)?)?(?:\(\s*([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9])\s*\)|([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9]))\s*(?:[.-]\s*)?)?([2-9]1[02-9]|[2-9][02-9]1|[2-9][02-9]{2})\s*(?:[.-]\s*)?([0-9]{4})(?:\s*(?:#|x\.?|ext\.?|extension)\s*(\d+))?$/.test(phonenumber); 
 }
 // must be a valid email address
 function isValidEmail(email) {
