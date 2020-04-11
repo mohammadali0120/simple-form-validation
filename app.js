@@ -65,29 +65,3 @@ phonenumberInput.addEventListener("blur", (e) => {
     e.target.value = formatPhoneNumber(e.target.value);
 });
 emailInput.addEventListener("input", createListener(isValidEmail));
-
-
-
-
-
-
-// function greeting(name) {
-//     console.log('Hello ' + name);
-// }
-
-// function processUserInput(callback) {
-//     var mes = prompt('Please enter your name.');
-//     callback(mes);
-// }
-
-// processUserInput(greeting);
-
-
-/*
-In JavaScript, functions are objects. Can we pass objects to functions as parameters? Yes.
-So, we can also pass functions as parameters to other functions and call them inside the outer functions.
- Sounds complicated? Let me show that in an example below:
-The print( ) function takes another function as a parameter and calls it inside. This is valid in JavaScript and we call it a “callback”. So a function that is passed to another function as
- a parameter is a callback function. But that’s not all.
-
-*/
