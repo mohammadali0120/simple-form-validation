@@ -1,4 +1,4 @@
-# Form Validation of Javascript
+# Form Validation with Javascript
 
  This is complete form validation of javascript, at least with Regex
  
